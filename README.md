@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://github.com/sayalaruano/CardiomyoML/blob/main/LICENSE.md">
-        <img alt="License" src="https://img.shields.io/github/license/sayalaruano/CardiomyoML" />
+        <img alt="PyPI - License" src="https://img.shields.io/pypi/l/bioregistry" />
     </a>
     <a href="https://rnaseq-cardiomyopathies-pred.streamlit.app/">
         <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">
