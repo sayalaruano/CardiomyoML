@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-    <a href="https://github.com/sayalaruano/CardiomyoML/blob/main/LICENSE">
+    <a href="https://github.com/sayalaruano/CardiomyoML/blob/main/LICENSE.md">
         <img alt="License" src="https://img.shields.io/github/license/sayalaruano/CardiomyoML" />
     </a>
     <a href="https://rnaseq-cardiomyopathies-pred.streamlit.app/">
