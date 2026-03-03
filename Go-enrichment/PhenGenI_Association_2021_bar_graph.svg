@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="708"
+   height="299"
+   id="svg82"
+   sodipodi:docname="PhenGenI_Association_2021_bar_graph.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:export-filename="PhenGenI_Association_2021_bar_graph.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs86" />
+  <sodipodi:namedview
+     id="namedview84"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.7824859"
+     inkscape:cx="276.01901"
+     inkscape:cy="149.5103"
+     inkscape:window-width="1920"
+     inkscape:window-height="999"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g72" />
+  <g
+     class="bar"
+     transform="translate(0,5.862745098039215)"
+     id="g8">
+    <rect
+       class="shadow"
+       fill="#ff6666"
+       opacity="0.3"
+       width="707.9999999999999"
+       height="23.45098039215686"
+       id="rect2" />
+    <rect
+       class="bar"
+       fill="#ff6666"
+       width="707.9999999999999"
+       height="23.45098039215686"
+       title="p-value: 0.002663&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 2.92&lt;br&gt;combined score: 17.32"
+       id="rect4"
+       style="opacity:0.5" />
+    <text
+       class="label"
+       width="5.928446547580996"
+       x="3"
+       y="11.72549019607843"
+       dy="0.35em"
+       fill="black"
+       title="p-value: 0.002663&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 2.92&lt;br&gt;combined score: 17.32"
+       id="text6">Myocardial Infarction</text>
+  </g>
+  <g
+     class="bar"
+     transform="translate(0,35.17647058823529)"
+     id="g16">
+    <rect
+       class="shadow"
+       fill="#a54a4a"
+       opacity="0.3"
+       width="304.2632870154698"
+       height="23.45098039215686"
+       id="rect10" />
+    <rect
+       class="bar"
+       fill="#a54a4a"
+       width="304.2632870154698"
+       height="23.45098039215686"
+       title="p-value: 0.01398&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 6.29&lt;br&gt;combined score: 26.84"
+       id="rect12"
+       style="opacity:0.5;fill:#d35f5f" />
+    <text
+       class="label"
+       width="4.2698919109934295"
+       x="3"
+       y="11.72549019607843"
+       dy="0.35em"
+       fill="black"
+       title="p-value: 0.01398&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 6.29&lt;br&gt;combined score: 26.84"
+       id="text14">Cell Adhesion Molecules</text>
+  </g>
+  <g
+     class="bar"
+     transform="translate(0,64.49019607843137)"
+     id="g24">
+    <rect
+       class="shadow"
+       fill="#974545"
+       opacity="0.3"
+       width="240.59234417601039"
+       height="23.45098039215686"
+       id="rect18" />
+    <rect
+       class="bar"
+       fill="#974545"
+       width="240.59234417601039"
+       height="23.45098039215686"
+       title="p-value: 0.01816&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 3.04&lt;br&gt;combined score: 12.17"
+       id="rect20"
+       style="opacity:0.5;fill:#de8787" />
+    <text
+       class="label"
+       width="4.008331012353197"
+       x="3"
+       y="11.72549019607843"
+       dy="0.35em"
+       fill="black"
+       title="p-value: 0.01816&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 3.04&lt;br&gt;combined score: 12.17"
+       id="text22">Parkinson Disease</text>
+  </g>
+  <g
+     class="bar"
+     transform="translate(0,93.80392156862743)"
+     id="g32">
+    <rect
+       class="shadow"
+       fill="#894040"
+       opacity="0.3"
+       width="175.76690347402794"
+       height="23.45098039215686"
+       id="rect26" />
+    <rect
+       class="bar"
+       fill="#894040"
+       width="175.76690347402794"
+       height="23.45098039215686"
+       title="p-value: 0.02371&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 5.11&lt;br&gt;combined score: 19.12"
+       id="rect28"
+       style="opacity:0.55;fill:#e9afaf" />
+    <text
+       class="label"
+       width="3.742027424427506"
+       x="3"
+       y="11.72549019607843"
+       dy="0.35em"
+       fill="black"
+       title="p-value: 0.02371&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 5.11&lt;br&gt;combined score: 19.12"
+       id="text30">Language Tests</text>
+  </g>
+  <g
+     class="bar"
+     transform="translate(0,123.11764705882351)"
+     id="g40">
+    <rect
+       class="shadow"
+       fill="#803e3e"
+       opacity="0.3"
+       width="138.91317817795647"
+       height="23.45098039215686"
+       id="rect34" />
+    <rect
+       class="bar"
+       fill="#803e3e"
+       width="138.91317817795647"
+       height="23.45098039215686"
+       title="p-value: 0.02758&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 43.27&lt;br&gt;combined score: 155.35"
+       id="rect36"
+       style="opacity:0.5;fill:#f4d7d7" />
+    <text
+       class="label"
+       width="3.590631935735186"
+       x="3"
+       y="11.72549019607843"
+       dy="0.35em"
+       fill="black"
+       title="p-value: 0.02758&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 43.27&lt;br&gt;combined score: 155.35"
+       id="text38">Head And Neck Neoplasms</text>
+  </g>
+  <g
+     class="bar"
+     transform="translate(0,152.43137254901958)"
+     id="g48"
+     style="opacity:1">
+    <rect
+       class="shadow"
+       fill="#7b3c3c"
+       opacity="0.3"
+       width="112.8239270907788"
+       height="23.45098039215686"
+       id="rect42" />
+    <rect
+       class="bar"
+       fill="#7b3c3c"
+       width="112.8239270907788"
+       height="23.45098039215686"
+       title="p-value: 0.03070&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 4.61&lt;br&gt;combined score: 16.05"
+       id="rect44"
+       style="opacity:0.4;fill:#ffaaaa" />
+    <text
+       class="label"
+       width="3.4834570195977137"
+       x="3"
+       y="11.72549019607843"
+       dy="0.35em"
+       fill="black"
+       title="p-value: 0.03070&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 4.61&lt;br&gt;combined score: 16.05"
+       id="text46">Amyotrophic Lateral Sclerosis 1</text>
+  </g>
+  <g
+     class="bar"
+     transform="translate(0,181.74509803921566)"
+     id="g56">
+    <rect
+       class="shadow"
+       fill="#783b3b"
+       opacity="0.3"
+       width="101.94714145540955"
+       height="23.45098039215686"
+       id="rect50" />
+    <rect
+       class="bar"
+       fill="#783b3b"
+       width="101.94714145540955"
+       height="23.45098039215686"
+       title="p-value: 0.03210&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 36.05&lt;br&gt;combined score: 123.98"
+       id="rect52"
+       style="opacity:0.4;fill:#ffd5d5" />
+    <text
+       class="label"
+       width="3.438775070529084"
+       x="3"
+       y="11.72549019607843"
+       dy="0.35em"
+       fill="black"
+       title="p-value: 0.03210&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 36.05&lt;br&gt;combined score: 123.98"
+       id="text54">Mucus</text>
+  </g>
+  <g
+     class="bar"
+     transform="translate(0,211.05882352941174)"
+     id="g64">
+    <rect
+       class="shadow"
+       fill="#783b3b"
+       opacity="0.3"
+       width="101.94714145540955"
+       height="23.45098039215686"
+       id="rect58"
+       style="opacity:0.36" />
+    <rect
+       class="bar"
+       fill="#783b3b"
+       width="101.94714145540955"
+       height="23.45098039215686"
+       title="p-value: 0.03210&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 36.05&lt;br&gt;combined score: 123.98"
+       id="rect60"
+       style="opacity:0.33;fill:#ffd5d5" />
+    <text
+       class="label"
+       width="3.438775070529084"
+       x="3"
+       y="11.72549019607843"
+       dy="0.35em"
+       fill="black"
+       title="p-value: 0.03210&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 36.05&lt;br&gt;combined score: 123.98"
+       id="text62">Pharyngeal Neoplasms</text>
+  </g>
+  <g
+     class="bar"
+     transform="translate(0,240.37254901960782)"
+     id="g72">
+    <rect
+       class="shadow"
+       fill="#773b3b"
+       opacity="0.3"
+       width="96.86925676107154"
+       height="23.45098039215686"
+       id="rect66" />
+    <rect
+       class="bar"
+       fill="#773b3b"
+       width="96.86925676107154"
+       height="23.45098039215686"
+       title="p-value: 0.03278&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 7.39&lt;br&gt;combined score: 25.27"
+       id="rect68"
+       style="opacity:0.25;fill:#ffd5d5" />
+    <text
+       class="label"
+       width="3.4179150671333214"
+       x="3"
+       y="11.72549019607843"
+       dy="0.35em"
+       fill="black"
+       title="p-value: 0.03278&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 7.39&lt;br&gt;combined score: 25.27"
+       id="text70">Creatine Kinase</text>
+  </g>
+  <g
+     class="bar"
+     transform="translate(0,269.68627450980387)"
+     id="g80">
+    <rect
+       class="shadow"
+       fill="#713939"
+       opacity="0.3"
+       width="70"
+       height="23.45098039215686"
+       id="rect74"
+       style="opacity:0.4" />
+    <rect
+       class="bar"
+       fill="#713939"
+       width="70"
+       height="23.45098039215686"
+       title="p-value: 0.03661&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 30.90&lt;br&gt;combined score: 102.20"
+       id="rect76"
+       style="opacity:0.1;fill:#ffd5d5" />
+    <text
+       class="label"
+       width="3.3075358795352776"
+       x="3"
+       y="11.72549019607843"
+       dy="0.35em"
+       fill="black"
+       title="p-value: 0.03661&lt;br&gt;q-value: 0.5877&lt;br&gt;odds ratio: 30.90&lt;br&gt;combined score: 102.20"
+       id="text78">Digestive System Neoplasms</text>
+  </g>
+</svg>
