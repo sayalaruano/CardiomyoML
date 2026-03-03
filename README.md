@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-   Classification of cardiomyopathies and prediction of new biomarkers with machine learning using RNA sequencing data
+   Classification of cardiomyopathies and prediction of new biomarkers with machine learning using RNAseq data
 </p>
 
 ## Table of contents
