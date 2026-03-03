@@ -36,18 +36,12 @@
 
 ## About the project
 
-Cardiomyopathies are morphological and functional abnormalities in the myocardium that affect millions of people worldwide. 
-Despite a clear genetic component, characterizing the molecular signatures that distinguish different cardiomyopathy 
-etiologies (dilated (DCM), hypertrophic (HCM), or peripartum (PPCM)) remains a significant challenge.
+**Cardiomyopathies** are morphological and functional abnormalities in the myocardium that affect millions of people worldwide. 
+Despite a clear genetic component, characterizing the **molecular signatures** that distinguish different cardiomyopathy 
+etiologies (**dilated (DCM), hypertrophic (HCM), or peripartum (PPCM)**) remains a significant challenge.
 
-In this project, we developed **CardiomyoML**, a machine learning framework to classify heart tissue samples based 
-on RNA-seq gene expression data. 
-
-The main objectives were to:
-
-1.  **Classify** samples into Non-failing (NF), DCM, HCM, or PPCM cardiomyopathies.
-2.  **Identify** a robust set of genetic biomarkers using feature selection and consensus ranking.
-3.  **Validate** the biological relevance of these genes through enrichment analysis and literature review.
+In this project, we developed **CardiomyoML**, a machine learning framework to **classify heart tissue samples** based 
+on **RNA-seq gene expression data**. An overview of the workflow of this project is shown in the graphical abstract below.
 
 <p align="center">
   <img src="images/cardiomyoml_graph_abstract.png" width="800" alt="Graphical Abstract"/>
@@ -55,10 +49,16 @@ The main objectives were to:
   <em>Figure 1. Graphical abstract of the CardiomyoML workflow.</em>
 </p>
 
+The main objectives were to:
+
+1.  **Classify** samples into Non-failing (NF), DCM, HCM, or PPCM cardiomyopathies.
+2.  **Identify** a robust set of **genetic biomarkers** using feature selection and consensus ranking.
+3.  **Validate** the biological relevance of these genes through **enrichment analysis** and literature review.
+
 ## Dataset
 
-The primary dataset for training and testing the ML models was the **Myocardial Applied Genomics Network (MAGNet)** (GSE141910). 
-For validation, we used three external datasets (GSE46224, GSE116250, and E-GEOD-55296).
+The primary dataset for training and testing the ML models was the **Myocardial Applied Genomics Network (MAGNet)** 
+(GSE141910). For validation, we used three external datasets (GSE46224, GSE116250, and E-GEOD-55296).
 
 | Dataset partition | Samples | NF | DCM | HCM | PPCM |
 | :--- | :---: | :---: | :---: | :---: | :---: |
@@ -69,34 +69,34 @@ For validation, we used three external datasets (GSE46224, GSE116250, and E-GEOD
 
 ## Feature Selection
 
-The feature matrices were generated using log-transformed Counts Per Million (log-CPM) values. To handle the high dimensionality 
-of RNA-seq data, we implemented a multi-stage feature selection process.
+The feature matrices were generated using **log-transformed Counts Per Million (log-CPM)** values. To handle the 
+high dimensionality of RNA-seq data, we implemented a **multi-stage feature selection process**.
 
-1.  **Ensemble Ranking:** Extracted the top 500 features from Random Forest, LightGBM, and XGBoost.
+1.  **Ensemble Ranking:** Extracted the **top 500 features** from the best-performing ML models.
 2.  **Consensus List:** Identified a list of **94 genes** consistently ranked high across all models.
-3.  **Biological Validation:** Analyzed consensus genes (e.g., *MYH6*, *NPPA*) for Gene Ontology (GO) enrichment.
+3.  **Biological Validation:** Analyzed **consensus genes** (e.g., *MYH6*, *NPPA*) for **Gene Ontology (GO) enrichment**.
 
 ## Machine Learning Models
 
-First, we tested more than 30 ML classifiers for the binary and multiclass classification tasks using the [LazyPredict][lazypredict] 
-Python library. We chose the top 3 models according to some performance metrics such as accuracy, ROC AUC, precision, recall, F1 score, 
-and Matthews Correlation Coefficient (MCC). Then, we fine-tuned the hyperparameters of the best models using sklearn's 
-class [GridSearchCV][gridsearch]. Finally, considering the results of hyperparameter tuning and performance metrics, we obtained 
-the best ML model to predict AMPs activity.
+First, we tested more than 30 ML classifiers for the **binary and multiclass classification tasks** using 
+the [LazyPredict][lazypredict] Python library. We chose the **top 3 models** according to some performance metrics such 
+as accuracy, ROC AUC, precision, recall, F1 score, and Matthews Correlation Coefficient (MCC). Then, we **fine-tuned the hyperparameters** 
+of the best models using sklearn's class [GridSearchCV][gridsearch]. Finally, considering the results of 
+hyperparameter tuning and performance metrics, we obtained the best ML model to predict the cardiomyopathy etiology of the samples.
 
 You can find the code for this part in the Jupyter notebooks in the root directory of the repository, one for each classification 
 task (NF vs DCM, NF vs HCM, NF vs PPCM, and multiclass).
 
 ## Results of the best ML models
 
-The models achieved high performance on internal test data, particularly in the NF/DCM task. However, performance 
-significantly decreased when evaluated on external datasets.
+The models achieved **high performance on internal test data**, particularly in the NF/DCM task. However, 
+**performance significantly decreased** when evaluated on **external datasets**.
 
 <br />
 <p align="center">
     <img src="images/Figure1_ROC_curves_horizontal.png" width="800" alt="ROC Curves"/>
     <br />
-    <em><b>Figure 2.</b> ROC curves of the top 3 ensemble-based-based models in A) the binary classification task of NF/DCM using test and external data and B) individual performances for each etiology in the multiclass classification task on test data.</em>
+    <em><b>Figure 2.</b> ROC curves of the top 3 ML models in A) the binary classification task of NF/DCM using test and external data and B) individual performances for each etiology in the multiclass classification task on test data.</em>
 </p>
 <br />
 
@@ -160,7 +160,7 @@ significantly decreased when evaluated on external datasets.
 Using the 500 most important genes from the top 3 ensemble models (RF, LGBM, and XGBoost) in the NF/DCM task, we identified **94 consensus genes** shared by at least two models, as shown in the Venn diagram in Figure 3A. 
 
 * **Literature Comparison:** When compared against established literature datasets, only one gene, **MYH6** (myosin heavy chain 6), was shared. MYH6 is vital for cardiac muscle contraction, and its mutations are linked to cardiomyopathies and sudden cardiac death.
-* **Enrichment Analysis:** GSE analysis using the **Enrichr** web server identified enriched ontologies related to myocardial infarction and HCM in the Phenotype-Genotype Integrator and OMIM Disease databases (Figure 3B). 
+* **Enrichment Analysis:** GSE analysis using the **Enrichr** web server identified **enriched ontologies related to myocardial infarction and HCM** in the Phenotype-Genotype Integrator and OMIM Disease databases (Figure 3B). 
 
 <br />
 <p align="center">
@@ -172,11 +172,10 @@ Using the 500 most important genes from the top 3 ensemble models (RF, LGBM, and
 
 ## Web Application
 
-We deployed the NF vs. DCM classifier as a Streamlit web applciation. Users can upload gene expression data for the 
-94 consensus genes to receive a prediction.
+Using the best-performing model of the **NF vs. DCM task**, we developed **CardiomyoPred**, a Streamlit web application 
+that allows users to **predict the cardiomyopathy etiology** of heart tissue samples based on **gene expression data for the 94 consensus genes**. The source code for this web application is available in this [GitHub repository][app-repo].
 
-* **Web App:** <a href="https://rnaseq-cardiomyopathies-pred.streamlit.app/" title="CardiomyoML-webapp"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"></a><br>
-* **Web App Source Code:** [Web App Repository][app-repo]
+<a href="https://rnaseq-cardiomyopathies-pred.streamlit.app/" title="CardiomyoML-webapp"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"></a><br>
 
 ## Structure of the repository
 
