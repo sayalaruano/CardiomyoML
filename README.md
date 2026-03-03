@@ -19,9 +19,10 @@
 
 - [About the project](#about-the-project)
 - [Dataset](#dataset)
-- [Methodology and Feature Selection](#methodology-and-feature-selection)
+- [Feature Selection](#methodology-and-feature-selection)
 - [Machine Learning Models](#machine-learning-models)
 - [Results of the best ML models](#results-of-the-best-ml-models)
+- [Biological Interpretation](#biological-interpretation)
 - [Web Application](#web-application)
 - [Structure of the repository](#structure-of-the-repository)
 - [Credits](#credits)
@@ -198,8 +199,6 @@ The [PDF Manuscript][manuscript] contains more background information on cardiom
 ## Contact
 
 If you have comments or suggestions, please [open an issue][issues] in this repository. 
-
----
 
 [web-app]: https://rnaseq-cardiomyopathies-pred.streamlit.app/
 [app-repo]: https://github.com/sayalaruano/RNAseq_cardiomyopathies_pred
